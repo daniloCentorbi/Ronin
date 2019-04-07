@@ -1,0 +1,7 @@
+/* Import all the mixins for this theme */
+@import "dashboard.scss";
+
+/* Output the actual theme selectors */
+.dashboard {
+@include dashboard;
+}
